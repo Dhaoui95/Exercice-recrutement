@@ -9,6 +9,7 @@ use Kamaln7\Toastr\Facades\Toastr;
 
 class MainController extends Controller
 {
+    
     function login(){
         return view('auth.login');
     }
